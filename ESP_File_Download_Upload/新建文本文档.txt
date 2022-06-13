@@ -1,0 +1,10 @@
+使用 1.0  版本的库 ESP8266WiFi 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\ESP8266WiFi 
+使用 1.0  版本的库 ESP8266WebServer 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\ESP8266WebServer 
+使用 1.2  版本的库 ESP8266mDNS 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\ESP8266mDNS 
+使用 2.0.0  版本的库 SD 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\SD 
+使用 0.1.0  版本的库 SDFS 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\SDFS 
+使用 1.0  版本的库 SPI 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\SPI 
+使用 1.1.0  版本的库 ESP8266SdFat 在文件夹： C:\Users\Administrator\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4\libraries\ESP8266SdFat 
+"C:\\Users\\Administrator\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\2.5.0-4-b40a506/bin/xtensa-lx106-elf-size" -A "d:\\arduino\\MyHexDir/ESP_File_Download_Upload.ino.elf"
+项目使用了 348208 字节，占用了 (33%) 程序存储空间。最大为 1044464 字节。
+全局变量使用了28424字节，(34%)的动态内存，余留53496字节局部变量。最大为81920字节。

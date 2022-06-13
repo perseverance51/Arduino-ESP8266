@@ -1,0 +1,42 @@
+C:\Users\Administrator\Desktop\ESP8266Projct\Blink>avrdude -v -C avrdude.conf -c stk500v1 -p atmega328 -P net:192.168.0.115:328 -U flash:w:Blink.ino.hex:i
+
+avrdude -v -C avrdude.conf -c arduino -p atmega328 -P net:192.168.0.114:328 -U flash:w:firmware.hex:i
+
+avrdude -c arduino -p atmega328p -P net:192.168.0.115:328 -t # or -U
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude -CC:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf -v -c arduino -p atmega328p -P net:192.168.0.115:328 -U flash:w:C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr\bin/avrdude -CC:\Program Files (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf -v -c arduino -p atmega328p -P net:192.168.0.115:328 -U flash:w:C:\Users\Administrator\Desktop\ESP8266Projct\Blink/Blink.ino.hex:i
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude -v -C avrdude.conf -c stk500v1 -p atmega328p -P net:192.168.0.114:328 -U flash:w:C:\Users\Administrator\Desktop\ESP8266Projct\Blink/Blink.ino.hex:i
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/avrdude -CC:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf -v -c arduino -p atmega328p -P net:192.168.0.114:328 -Uflash:w:C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i
+
+C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf -v arduino -p atmega328p -P net:192.168.0.114:328 -Uflash:w:C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+
+通过CMD命令行，直接给Arduino UNO烧写固件
+C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -patmega328p -carduino -PCOM43 -b115200 -D -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+本地编译成功
+avrdude -C"C:\Users\Administrator\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf" -v -patmega328p -carduino -PCOM43 -b115200 -D -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -patmega328p -carduino -PCOM43 -b115200 -D -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+----------------------------------------------------------------------------
+avrdude -c arduino -p <device> -P net:192.168.0.114:328 -U
+avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -c  atmega328p -P net:192.168.0.114:328 -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+		网站：https://arduino.stackexchange.com/questions/44702/esp8266-as-isp-program-for-atmega16
+avrdude -CE:\Arduino\hardware\tools\avr/etc/avrdude.conf -v -c arduino -p atmega16 -P net:192.168.0.100:3000 -Uflash:w:C:\Users\per\AppData\Local\Temp\arduino_build_288143/Blink.ino.hex:i
+
+avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -patmega328p -carduino -pnet:192.168.0.114:328 -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+
+
+avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -patmega328p -carduino -pnet:192.168.0.114:328 -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+avrdude -v -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -c arduino -p atmega328p -P net:192.168.0.114:328 -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+avrdude -v -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -c arduino -p atmega328p -P net:192.168.0.114:328 -Uflash:w:"C:\Users\Administrator\Desktop\ESP8266Projct\Blink\Blink.ino.hex:i"
+
+

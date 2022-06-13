@@ -1,0 +1,1 @@
+{"wifi":"MERCURY_D268G","password":"pba5ayzk"}
